@@ -8,6 +8,7 @@ import SideBar from './components/Sidebar';
 import Home from './router/Home';
 import About from './router/About';
 import Contact from './router/Contact';
+import Setting from './router/Setting';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/settings" element={<Setting />} />
         </Route>
       </Routes>
     </div>

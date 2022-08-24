@@ -1,0 +1,39 @@
+:root {
+
+  --primary: #4ade80;
+  --primary-alt: #22c55e;
+  --grey: #64748b;
+  --light-grey: #dce0e6;
+  --dark: #1e293b;
+  --dark-alt: #334155;
+  --light: #f1f5f9;
+  --blue: #0f1e9f;
+  --sidebar-width: 300px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira sans', sans-serif;
+}
+body {
+  background: var(--light-grey);
+}
+button {
+  cursor: pointer;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+}
+.App {
+  display: flex;
+  main {
+    flex: 1 1 0;
+    padding: 1rem;
+    @media (max-width: 1024px) {
+      padding-left: 6rem;
+    }
+  }
+}
