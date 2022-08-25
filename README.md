@@ -1,5 +1,4 @@
-# react-vite-redux-router
-SPA構築に必要ルーティングをサイドバーにて提供するためのテンプレート。
-名前にreduxが入っているが、reduxを使う必要があるか検討中なので別の手段を取る可能性もある。※react queryとか
+# react-vite-router
+This template is designed to provide the routing necessary to build an SPA in React using a sidebar.
 
-なのでリポジトリ名を変更するかもしれません。
+A simple sample of connecting to a WebAPI and displaying the response on the screen is provided in Home.
